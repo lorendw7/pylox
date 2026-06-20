@@ -166,7 +166,7 @@ compiling hot code at runtime, the way V8, PyPy, and HotSpot do.
 
 | Lesson | Topic | What you'll learn | Output files | Status |
 | --- | --- | --- | --- | --- |
-| 0 | Overview & setup | The three-stage architecture; project layout | directory skeleton | ⏳ |
+| 0 | [Foundations](docs/lesson-00-foundations.md) | From zero: what a program is, why a pipeline, syntax vs. semantics, grammars, recursion — no code | directory skeleton | ⏳ |
 | 1 | [Lexer](docs/lesson-01-lexer.md) | Tokens, character scanning; the theory behind it — regular expressions ↔ finite automata (DFA/NFA) | `tokens.py`, `lexer.py` | ⏳ |
 | 2 | AST | Representing syntax as classes; why a tree | `ast_nodes.py` | ⏳ |
 | 3 | Parser | Recursive descent, operator precedence; context-free grammars & BNF/EBNF notation | `parser.py` | ⏳ |
@@ -221,7 +221,8 @@ compiling hot code at runtime, the way V8, PyPy, and HotSpot do.
 pylox/
 ├── README.md
 ├── docs/
-│   └── lesson-01-lexer.md  # per-lesson teaching handouts (concepts, API specs, tests)
+│   ├── lesson-00-foundations.md  # from-zero concepts (no code)
+│   └── lesson-01-lexer.md        # per-lesson teaching handouts (concepts, API specs, tests)
 ├── main.py                 # Lesson 5: entry point — run a script file or start the REPL
 ├── pylox/
 │   ├── __init__.py
