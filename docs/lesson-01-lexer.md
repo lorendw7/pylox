@@ -252,7 +252,7 @@ token type (`LET`/`IF`/...); if no, emit `IDENTIFIER`.
 > 把整个词 `letx` 完整读出来，再去“关键字表”里查。`let` 在表里 → 关键字；`letx` 不在 →
 > 普通标识符。这样 `letx` 才不会被错误地拆成关键字 `let` + `x`。维护一个
 > `{"let": LET, "if": IF, "else": ELSE, "while": WHILE}` 的字典即可。（`true`/`false`/`and`/
-> `or`/`not`/`fun`/`for`/`return` 等以后再往表里加。）
+> `or`/`not`/`fn`/`for`/`return` 等以后再往表里加。`fn` 用来定义函数和 lambda（Tier B/F）。）
 
 ---
 
