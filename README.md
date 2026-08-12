@@ -1,5 +1,10 @@
 # pylox — Build Your Own Programming Language in Pure Python
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Dependencies: none](https://img.shields.io/badge/Dependencies-none-brightgreen.svg)](#6-how-to-run--如何运行)
+[![Status: in progress](https://img.shields.io/badge/Status-in%20progress-orange.svg)](#7-progress--进度)
+
 > **pylox** is a tiny scripting language *and* a step-by-step tutorial for building
 > its interpreter from scratch — in pure Python, with **zero third-party dependencies**.
 >
@@ -384,3 +389,18 @@ pylox is inspired by **Lox**, the teaching language from Robert Nystrom's free b
 > 🇨🇳 **学习建议：** 本教程偏“动手先于理论”——先把东西做出来、跑起来，建立直觉，
 > 再回头去读上面这些更系统的资料，效果最好。遇到看不懂的概念，回到第 1 节的流水线
 > 图和第 3 节的术语表，多半能对上号。
+
+---
+
+## 9. License / 许可证
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file
+for details. You are free to use, copy, modify, and share it, for learning or anything
+else, as long as the copyright notice is kept.
+
+> 🇨🇳 本项目采用 **MIT 协议**开源（详见 [LICENSE](LICENSE) 文件）。你可以自由地
+> 使用、复制、修改和分发本项目——无论是拿来学习还是二次创作——只需保留版权声明。
+
+The language design is inspired by **Lox** from Robert Nystrom's
+[*Crafting Interpreters*](https://craftinginterpreters.com/); all documentation and
+(eventually) all code here are written from scratch for this project.
